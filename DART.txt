@@ -1,0 +1,27 @@
+First Assigment
+Hello World:
+
+void main() {
+
+  var studentName = Areeb Ali";
+  int mathMarks = 70;
+  int englishMarks = 65;
+  int urduMarks = 80;
+  int physicsMarks = 60;
+  int marksObtained = (mathMarks + englishMarks + urduMarks + physicsMarks);
+  int totalmarks = 400;
+  double percentage = (marksObtained * 100) / totalmarks;
+  
+  
+  print("=========   YOUR MARKSHEET   =======");
+  print("");
+  print('Student Name:  ${studentName}');
+  print('Math marks:  ${mathMarks}/100');
+  print('English marks:  ${englishMarks}/100');
+  print('Urdu marks:  ${urduMarks}/100');
+  print('Physics marks:  ${physicsMarks}/100');
+  print('Total marks obtained:  ${marksObtained}/${totalmarks}');
+  print('Percentage:  ${percentage}%');
+  print("");
+  print(percentage < 33 ? "========== You are Failed ===========" : "======== congrats you are passed ==========");
+}
