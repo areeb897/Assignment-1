@@ -3,7 +3,7 @@ Hello World:
 
 void main() {
 
-  var studentName = Areeb Ali";
+  var studentName = "Areeb Ali";
   int mathMarks = 70;
   int englishMarks = 65;
   int urduMarks = 80;
